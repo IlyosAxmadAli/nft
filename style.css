@@ -1,0 +1,176 @@
+/* outfit-300 - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/outfit-v6-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/outfit-v6-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* outfit-regular - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/outfit-v6-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/outfit-v6-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/outfit-v6-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/outfit-v6-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.44;
+  color: #8bacd9;
+  background-color: #0d192c;
+}
+.nft {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  padding: 2.4rem 2.4rem 3.2rem;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}
+.img {
+  position: relative;
+  background: url("./images/nft.png") no-repeat;
+  width: 100%;
+  max-width: 302px;
+  height: 302px;
+  margin-bottom: 2.4rem;
+}
+.img:hover {
+  background: url("./images/eyes.svg") no-repeat,
+    linear-gradient(rgba(0, 255, 248, 0.5), rgba(0, 255, 248, 0.5)),
+    url("./images/nft.png") no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+}
+h1:hover {
+  color: #00fff8;
+}
+.nft-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #8bacd9;
+  margin-bottom: 2.4rem;
+}
+.eth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+h2 {
+  position: relative;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+  margin-left: 2rem;
+}
+h2::before {
+  position: absolute;
+  content: url("./images/shape1.svg");
+  left: -20px;
+}
+.desc {
+  position: relative;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+.desc::before {
+  position: absolute;
+  content: url("./images/shape.svg");
+  left: -25px;
+  bottom: -1px;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2e405a;
+  margin: 1em 0;
+  padding: 0;
+}
+.jules {
+  display: flex;
+  align-items: center;
+}
+.j-img {
+  margin-right: 1.6rem;
+}
+.j-tex {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+span {
+  color: #ffffff;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+span:hover {
+  color: #00fff8;
+}
